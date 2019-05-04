@@ -58,6 +58,7 @@
      <Compile Include="Assets\LevelSpawner.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\WaterTextureAnimation.cs" />
+     <None Include="Assets\Resources\level1.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/home/zeha/dev/projects/unity_muus42/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
