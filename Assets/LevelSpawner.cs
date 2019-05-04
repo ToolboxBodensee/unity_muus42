@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelSpawner : MonoBehaviour
 {
     public GameObject wallPrefab;
+    public GameObject woodPrefab;
     public Vector3 offset;
     public int tilesize = 4;
 
@@ -39,6 +40,9 @@ public class LevelSpawner : MonoBehaviour
                     {
                     case '#':
                         Instantiate(wallPrefab, pos, Quaternion.identity);       
+                        break;
+                    case 'X':
+                        Instantiate(woodPrefab, pos, Quaternion.identity);       
                         break;
                     }
                 }
